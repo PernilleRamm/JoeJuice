@@ -64,6 +64,12 @@ io.on("connection", (socket) => {
   });
 });
 
+http.listen(3000, "165.22.68.229", () => {
+  console.log(`Server running at http://165.22.68.229:3000/`);
+});
+ 
+/*
 http.listen(3000, "localhost", () => {
   console.log(`Socket.IO server running at http://localhost:3000/`);
 });
+*/
